@@ -4,7 +4,7 @@ terraform {
     organization = "Saludirecta"
 
     workspaces {
-      name = "infra-iac-"
+      prefix = "infra-iac-"
     }
   }
 }
